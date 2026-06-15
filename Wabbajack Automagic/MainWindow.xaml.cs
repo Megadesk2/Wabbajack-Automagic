@@ -100,6 +100,7 @@ namespace Wabbajack_Automagic
             SetCursorPos(Xposition, Yposition);
             mouse_event(MOUSEEVENTF_LEFTDOWN, Xposition, Yposition, 0, 0);
             mouse_event(MOUSEEVENTF_LEFTUP, Xposition, Yposition, 0, 0);
+            SetCursorPos(40, 100);
         }
         public Bitmap Screenshot()
         {
